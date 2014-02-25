@@ -30,26 +30,5 @@ using Autofac.Core;
 
 namespace Autofac.Features.OpenGenerics
 {
-    static class OpenGenericRegistrationExtensions
-    {
-        public static IRegistrationBuilder<object, ReflectionActivatorData, DynamicRegistrationStyle>
-            RegisterGeneric(ContainerBuilder builder, Type implementor)
-        {
-            if (builder == null) throw new ArgumentNullException("builder");
-            if (implementor == null) throw new ArgumentNullException("implementor");
-
-			throw new NotSupportedException ("Not supported in iOS build.");
-        }
-
-        public static IRegistrationBuilder<object, OpenGenericDecoratorActivatorData, DynamicRegistrationStyle>
-            RegisterGenericDecorator(ContainerBuilder builder, Type decoratorType, Type decoratedServiceType, object fromKey, object toKey)
-        {
-            if (builder == null) throw new ArgumentNullException("builder");
-            if (decoratorType == null) throw new ArgumentNullException("decoratorType");
-            if (decoratedServiceType == null) throw new ArgumentNullException("decoratedServiceType");
-
-			throw new NotSupportedException ("Not supported in iOS build.");
-        }
-			
-    }
+   
 }

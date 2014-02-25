@@ -221,6 +221,18 @@
     <Compile Include="Core\Features\GeneratedFactories\FactoryGenerator.cs" />
     <Compile Include="Core\Features\MetaData\MetadataViewProvider.cs" />
     <Compile Include="Core\OpenGenerics\OpenGenericRegistrationExtensions.cs" />
+    <Compile Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationExtensions.cs">
+      <Link>OpenGenericRegistrationExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationExtensionsResources.Designer.cs">
+      <Link>OpenGenericRegistrationExtensionsResources.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationSource.cs">
+      <Link>OpenGenericRegistrationSource.cs</Link>
+    </Compile>
+    <Compile Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationSourceResources.Designer.cs">
+      <Link>OpenGenericRegistrationSourceResources.Designer.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\vendor\Autofac\Core\Source\Autofac\ContainerBuilderResources.resx" />
@@ -241,6 +253,9 @@
     <None Include="..\vendor\Autofac\Core\Source\Autofac\Features\ResolveAnything\AnyConcreteTypeNotAlreadyRegisteredSourceResources.resx" />
     <None Include="..\vendor\Autofac\Core\Source\Autofac\Util\EnforceResources.resx" />
     <None Include="..\vendor\Autofac\Core\Source\Autofac\Util\ReflectionExtensionsResources.resx" />
+    <None Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationExtensionsResources.resx">
+      <Link>OpenGenericRegistrationExtensionsResources.resx</Link>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\vendor\Autofac\Core\Source\Autofac\Core\Registration\ComponentNotRegisteredExceptionResources.resx" />
@@ -261,5 +276,8 @@
     <EmbeddedResource Include="..\vendor\Autofac\Core\Source\Autofac\Core\Activators\ProvidedInstance\ProvidedInstanceActivatorResources.resx" />
     <EmbeddedResource Include="..\vendor\Autofac\Core\Source\Autofac\Core\Activators\Delegate\DelegateActivatorResources.resx" />
     <EmbeddedResource Include="..\vendor\Autofac\Core\Source\Autofac\Builder\RegistrationBuilderResources.resx" />
+    <EmbeddedResource Include="..\vendor\Autofac\Core\Source\Autofac\Features\OpenGenerics\OpenGenericRegistrationSourceResources.resx">
+      <Link>OpenGenericRegistrationSourceResources.resx</Link>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
