@@ -1,0 +1,3 @@
+[submodule "vendor/Autofac"]
+	path = vendor/Autofac
+	url = https://github.com/autofac/Autofac.git

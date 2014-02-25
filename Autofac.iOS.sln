@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.iOS", "src\Autofac.iOS.csproj", "{D12883DA-2722-4E3E-88CA-4C6D95B2A474}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Release|iPhone.Build.0 = Release|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D12883DA-2722-4E3E-88CA-4C6D95B2A474}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\Autofac.iOS.csproj
+	EndGlobalSection
+EndGlobal
