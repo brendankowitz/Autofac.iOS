@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Autofac.iOS</id>
+    <version>3.3.0-alpha1</version>
+    <title>Autofac for Xamarin/iOS</title>
+    <authors>Autofac Team</authors>
+    <owners>Brendan Kowitz</owners>
+    <projectUrl>https://github.com/brendankowitz/Autofac.iOS</projectUrl>
+    <iconUrl>http://code.google.com/p/autofac/logo</iconUrl>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Base assemblies for the Autofac Inversion of Control Container, built for Xamarin/iOS.
+    </description>
+    <summary>
+      Autofac built for Xamarin/iOS
+    </summary>
+    <releaseNotes>
+      * Rebuilt against the iOS library type
+      * Removed support for Default Values in constructor parameters
+      * No support for Factory Generator where there are duplicate input types
+      * No support for Metadata
+      * RegisterOpenGeneric may fail to resolveif types are not predetermined
+    </releaseNotes>
+    <tags>Autofac IoC DI iOS Xamarin Mono</tags>
+    <language>en-US</language>
+    <references></references>
+  </metadata>
+  <files>
+    <file src="lib\**" target="lib" />
+    <!--file src="tools\" target="tools" />
+    <file src="content\" target="content" /-->
+  </files>
+</package>
