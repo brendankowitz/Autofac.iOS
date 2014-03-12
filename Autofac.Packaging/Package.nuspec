@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Autofac.iOS</id>
-    <version>3.3.0-alpha1</version>
+    <version>3.3.0-alpha3</version>
     <title>Autofac for Xamarin/iOS</title>
     <authors>Autofac Team</authors>
     <owners>Brendan Kowitz</owners>
@@ -18,10 +18,10 @@
     </summary>
     <releaseNotes>
       * Rebuilt against the iOS library type
-      * Removed support for Default Values in constructor parameters
+      * No support for Default Values in constructor parameters (includes value types)
       * No support for Factory Generator where there are duplicate input types
       * No support for Metadata
-      * RegisterOpenGeneric may fail to resolveif types are not predetermined
+      * RegisterOpenGeneric may fail to resolve if types are not predetermined
     </releaseNotes>
     <tags>Autofac IoC DI iOS Xamarin Mono</tags>
     <language>en-US</language>

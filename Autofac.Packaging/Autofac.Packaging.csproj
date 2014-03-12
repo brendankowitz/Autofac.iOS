@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Caliburn.Micro.Autofac.Packaging</RootNamespace>
     <AssemblyName>Caliburn.Micro.Autofac.Packaging</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -43,7 +45,9 @@
     <None Include="NuGetSetup.ps1" />
     <None Include="NuGet.exe" />
     <None Include="NuGet.config" />
-    <None Include="Package.nuspec" />
+    <None Include="Package.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="tools\init.ps1" />
     <None Include="tools\install.ps1" />
     <None Include="tools\uninstall.ps1" />
