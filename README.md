@@ -11,8 +11,11 @@ PM> Install-Package Autofac.iOS -Pre
 
 Release Notes
   * Rebuilt against the iOS library type
-  * Removed support for Default Values in constructor parameters (includes Value types)
+  * No support for Default Values in constructor parameters (includes Value types)
+    * Caused by lack of support in the Mono/iOS for "Expression.Default"
   * No support for Factory Generator where there are duplicate input types
+    * Caused by lack of support in the Mono/iOS for "Expression.Throw"
   * No support for Metadata
-  * RegisterOpenGeneric may fail to resolveif types are not predetermined
+    * Caused by lack of support in the Mono/iOS for "Expression.Variable" and "Expression.Assign"
+  * RegisterOpenGeneric may fail to resolve if types are not predetermined
 
